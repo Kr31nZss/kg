@@ -1,0 +1,209 @@
+html{
+    background-color: black;
+}
+img{
+    opacity: 90%;
+    background-color: black;
+    width: 1366px;
+    height: 768px; ;
+
+
+}
+.kg{
+    position: absolute;
+    text-align: center;
+    top: 13%;
+    right: 45%;
+    color: rgb(240, 248, 255);
+    text-transform: lowercase;
+    text-shadow: 2px 1px 1px rgb(6, 228, 217);
+    font-size:20px;
+    opacity: 93%;
+}
+.about{
+    position: absolute;
+    top: 28%;
+    right: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(6, 228, 217);
+    text-shadow: 1px 1px 1px black;
+    opacity: 60%;
+    border: solid 1px;
+    border-color: aquamarine;
+    border-radius: 7px;
+    transition: all 0.5s;
+}
+.about:hover{
+    border-color: rgba(240, 248, 255, 0.199);
+    background-color: rgba(240, 248, 255, 0.199);
+    opacity: 75%;
+    transition: all 0.5s;
+    cursor: default;
+}
+.about2{
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(6, 228, 217);
+    text-shadow: 1px 1px 1px black;
+    opacity: 60%;
+    border: solid 1px;
+    border-color: aquamarine;
+    border-radius: 7px;
+    transition: all 0.5s;
+}
+.about2:hover{
+    border-color: rgba(240, 248, 255, 0.199);
+    background-color: rgba(240, 248, 255, 0.199);
+    opacity: 75%;
+    transition: all 0.5s;
+    cursor: default;
+}
+.about3{
+    position: absolute;
+    top: 52%;
+    right: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(6, 228, 217);
+    text-shadow: 1px 1px 1px black;
+    opacity: 60%;
+    border: solid 1px;
+    border-color: aquamarine;
+    border-radius: 7px;
+    transition: all 0.5s;
+}
+.about3:hover{
+    border-color: rgba(240, 248, 255, 0.199);
+    background-color: rgba(240, 248, 255, 0.199);
+    opacity: 75%;
+    transition: all 0.5s;
+    cursor: default;
+}
+.nav1{
+position: absolute;
+top: 0%;
+right: 3%;
+overflow: auto;
+white-space: nowrap;
+display: inline;
+color: antiquewhite;
+transform: scale(0.9);
+}
+.nav2{
+    transition: all 1s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(48, 48, 245);
+    font-size: 20px;
+    transform: scale(1);
+}
+.nav2:hover{
+    color: rgb(114, 116, 250);
+    transition: all 1s;
+    transform: scale(1);
+    
+
+}
+ol{
+    display: inline;
+    color: rgb(155, 228, 228);
+    transition: all 1s;
+    transform: scale(0.9);
+    bottom: 10px;
+}
+.account{
+    position: absolute;
+    top: 38%;
+    right: 80%;
+    border: solid 2px;
+    border-radius: 10%;
+    padding: 10px;
+    border-color: rgba(85, 189, 250, 0.747);
+    background-color: rgba(62, 170, 156, 0.103);
+    transition: 1s all;
+    transform: scale(1);
+}
+.account:hover{
+    border-color: rgba(77, 184, 247, 0.829);
+    background-color: rgba(61, 194, 176, 0.329);
+    transition: 1s all;
+    transform: scale(1.1);
+}
+.acc{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    transform: scale(1);
+    transition: 1s all;
+}
+.acc:hover{
+    color: rgba(85, 245, 245, 0.753);
+    transform: scale(0.9);
+    transition: 1s all;
+}
+.log{
+    border-radius: 20%;
+    border-color: aqua;
+    background-color: rgba(55, 180, 180, 0);
+    color: aquamarine;
+    transform: scale(1);
+    transition: all 1s;
+}
+.pass{
+    border-radius: 20%;
+    border-color: aqua;
+    background-color: rgba(55, 180, 180, 0);
+    color: aquamarine;
+    transform: scale(1);
+    transition: all 1s;
+}
+.log:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+}
+.pass:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+}
+.sub{
+    color: aquamarine;
+    border-color: rgba(55, 180, 180, 0.411);
+    border-radius: 20%;
+    transform: scale(1);
+    transition: all 1s;
+    background-color: rgba(55, 180, 180, 0);
+}
+.sub:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    color: rgb(18, 190, 133);
+    border-color: aqua ;
+}
+.don{
+    color: aquamarine;
+    border-color: rgba(55, 180, 180, 0.411);
+    border-radius: 20%;
+    transform: scale(1);
+    transition: all 1s;
+    background-color: rgba(55, 180, 180, 0);
+}
+.don:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    color: rgba(224, 158, 15, 0.63);
+    border-color: rgba(255, 174, 0, 0.664) ;
+}
+
+
+
+
